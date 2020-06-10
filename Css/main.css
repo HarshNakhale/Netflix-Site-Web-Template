@@ -1,0 +1,176 @@
+/* Css Reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding: 2px 60px;
+}
+
+#navbar img{
+    width: 180px;
+    height: 100px;
+}
+#navbar button{
+    background-color: red;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-color: black;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 12px;
+}
+
+/* Home Section  */
+.search{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#maincon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 580px;
+    max-width: 1200px;
+    padding: 10px 110px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+#maincon h1{
+    color: white;
+    font-size: 65px;
+    padding: 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+    text-align: center;
+}
+#maincon h3{
+    color: white;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 10px;
+    text-align: center;
+}
+.search input{
+    width: 450px;
+    height: 65px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.search button{
+    width: 200px;
+    background-color: rgb(212, 48, 48);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white; 
+    font-size: 22px;  
+    height: 65px;
+    cursor: pointer; 
+}
+.search button:hover{
+    background-color: rgb(248, 11, 11);
+    color: white; 
+}
+#maincon h4{
+    color: white; 
+    font-size: 18px;
+    padding: 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+  #main::before{ 
+    content: "";
+    position: absolute;
+    background:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.55)),url('/Images/bg.jpg');
+    left: 0px;
+    top: 0px;
+    height: 680px;
+    width: 100%;
+    z-index: -1;
+} 
+
+/* Mid Section Part  */
+.mainup{
+    max-height: 400px;
+    margin-bottom: 4px;
+    position: relative;
+    top: 0px;
+}
+.mainup::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    z-index: -1;
+}
+.mainpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.mainpart img{
+    height: 350px;
+    margin: 30px 0px 0px 85px;
+    padding: 15px 2px;
+    width: 500px;
+    align-self: center;
+}
+.primary-head{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.para{
+    font-size: 25px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    width: 600px;
+    font-weight: bold;
+}
+
+/* Footer Part  */
+#lastcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:150px;
+    color: white;
+    padding: 10px 110px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+#lastcon::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    z-index: -1;
+}
+#second{
+    margin-left: 190px;
+}

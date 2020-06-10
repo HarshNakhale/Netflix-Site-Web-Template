@@ -1,0 +1,81 @@
+/* Navigation Bar  */
+#navbar{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 7px;
+    flex-wrap: wrap;
+}
+
+#navbar img{
+    width: 150px;
+    height: 60px;
+}
+#navbar button{
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+/* Home Section   */
+main::before{
+    height: 680px;
+}
+#maincon{
+    flex-wrap: wrap;
+    height: 580px;
+    padding: 10px 10px; 
+}
+#maincon h1{
+    font-size: 35px;
+    padding: 5px 5px;
+}
+#maincon h3{
+    font-size: 25px;
+    padding: 5px 5px;
+}
+.search input{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+.search button{
+    width: 100px;
+    font-size: 15px;
+    height: 50px;
+}
+#maincon h4{
+    font-size: 15px;
+    padding: 5px 5px;
+}
+.primary-head{
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    /* display: inline-block; */
+}
+.para{
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+    /* display: inline-block; */
+}
+.mainpart{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mainpart img{
+height: 192px;
+margin: 10px 0px 0px 0px;
+padding: 15px 2px;
+width: 300px;
+}
+.mainpart div{
+    display: inline-block;
+}
+#second{
+    margin-left: 0px;
+}
+#lastcon{
+    height: 125px;
+    padding: 10px 50px;
+}
